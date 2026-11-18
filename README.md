@@ -4,9 +4,11 @@
 
 ## 下载
 
-[下载完整技能包（2026-10-09）](https://github.com/emmmilyhu/family-learning-planner/raw/refs/heads/main/family-learning-planner-2026-10-09.zip)
+[下载最新版技能包](https://github.com/emmmilyhu/family-learning-planner/releases/latest/download/family-learning-planner.zip)
 
-也可以点击仓库中的 ZIP 文件，再点击下载按钮。解压后请保留整个 `family-learning-planner` 文件夹，主文件引用了三个参考文件。
+解压后保留整个 `family-learning-planner` 文件夹及其参考文件。已安装旧包的用户可下载新版并按使用工具的说明更新。
+
+[历史版本与变更记录](CHANGELOG.md)
 
 ## 使用
 
@@ -34,7 +36,9 @@ family-learning-planner/
 └── references/
     ├── interest-to-learning.md
     ├── school-transition.md
-    └── review-and-update.md
+    ├── review-and-update.md
+    ├── consulting-style.md
+    └── advisor-handoff.md
 ```
 
 ## 方法与边界
@@ -43,4 +47,4 @@ family-learning-planner/
 
 AI 输出是可修改草稿，不能推断天赋、人格或职业适配度，也不保证学业或升学结果。不要把私人儿童和家庭记录上传到公开仓库。
 
-版本日期：2026-10-09。文件与引用静态检查及 ZIP 完整性检查通过；标准校验器因环境缺少 PyYAML 未运行成功。尚未完成真实家庭行为验证。
+本版已检查参考文件链接和 ZIP 完整性。实际咨询表现有待试跑验证。
